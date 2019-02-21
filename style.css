@@ -1,0 +1,54 @@
+
+* {font-family: "Arial"}
+*{background-color: #FFE9D5}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #FF8C7E;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #bisque;
+  color: white;
+}
+
+
+#welcome {
+  background-color: #FF8C7E;
+  width: 900px;
+  border: 25px #FF8C7E;
+  padding: 25px;
+  margin: 25px; 
+  color: white;
+}
+
+.dogphoto {
+  background-color: #FF8C7E;
+  width: 900px;
+  border: 25px #FF8C7E;
+  padding: 25px;
+  margin: 25px; 
+  scale: (400);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
