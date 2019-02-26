@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+
+.scary {
+  width: 50%;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0 auto; 
+}
+
+.questions {
+  width: 50%;
+  padding: 10px;
+  border: 5px solid lightblue;
+  margin: 0 auto; 
+}
+
+#thanks {
+  width: 50%;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0 auto; 
+}
