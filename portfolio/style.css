@@ -2,12 +2,12 @@ nav {
     text-align: center;
     background-color: #ffecbc;
     position: fixed;
-    width: 100%
+    width: 98.9%
 }
 
 li a{
   text-decoration: none;
-  font-family: "Arial";
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -30,7 +30,7 @@ a:hover {
   height: 5700px;
   padding: 50px 20px;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .column1 {
@@ -98,15 +98,15 @@ a:hover {
   height: 600px;
   padding: 50px 20px;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Montserrat', sans-serif;
 }
 
 #about {
   background-color: #FFB049;
-  height: 500px;
+  height: 600px;
   padding: 50px 20px;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .centerimg {
@@ -123,6 +123,6 @@ a:hover {
   height: 500px;
   padding: 50px 20px;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Montserrat', sans-serif;
 }
 
