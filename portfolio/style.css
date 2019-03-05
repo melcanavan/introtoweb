@@ -1,0 +1,128 @@
+nav {
+    text-align: center;
+    background-color: #ffecbc;
+    position: fixed;
+    width: 100%
+}
+
+li a{
+  text-decoration: none;
+  font-family: "Arial";
+}
+
+
+.nav-wrapper li {
+  display: inline;
+  padding: 80px;
+}
+
+.nav-wrapper a {
+  color: black;
+}
+
+a:hover {
+  background-color: white;
+  padding: 15px;
+}
+
+#work {
+  background-color: #FFDC7F;
+  height: 4910px;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  max-width: 30%;
+  height: auto;
+
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  max-width: 30%;
+  height: auto;
+
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  max-width: 30%;
+  height: auto;
+
+}
+
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column4 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  max-width: 30%;
+  height: auto;
+
+}
+
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#resume {
+  background-color: #FFD377;
+  height: 600px;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial";
+}
+
+#about {
+  background-color: #FFB049;
+  height: 500px;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.centerimg {
+  max-width: 30%;
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#contact {
+  background-color: #EA9B27;
+  height: 500px;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial";
+}
+
