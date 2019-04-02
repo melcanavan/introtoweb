@@ -1,0 +1,101 @@
+/*overall*/
+.navbar-brand {
+	font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+	font-family: 'Poppins', sans-serif;
+}
+
+/*homepage*/
+.hello {
+	font-family: 'Poppins', sans-serif;	
+	text-align: center;
+}
+
+/*recipe page*/
+
+.recipewords {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  /*max-width: 100px;*/
+
+}
+
+.flex-container img{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+/*smoothie ex*/
+
+.greensmoothie {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: green;
+}
+
+.redsmoothie {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: red;
+}
+
+.brownsmoothie {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: brown;
+}
+
+.orangesmoothie {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: orange;
+}
+
+.yellowsmoothie {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: yellow;
+}
+
+
+.recipeex img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+.ingredients {
+	text-indent: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.prep {
+	text-indent: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.contact {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.alert {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
