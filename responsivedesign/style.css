@@ -1,0 +1,134 @@
+
+
+/*small screen*/
+@media only screen and (max-width: 600px) {
+	/*overall*/
+
+	.navbar-brand {
+		font-family: 'Poppins', sans-serif;
+	}
+	.nav-link {
+		font-family: 'Poppins', sans-serif;
+	}
+
+	/*recipe page*/
+
+	.recipewords {
+		font-family: 'Poppins', sans-serif;
+		text-align: center;
+		color: #6751FF;
+		font-size: 30px;
+	}
+
+	.alert {
+		font-family: 'Poppins';
+		text-align: center;
+		color: #6751FF;
+		font-size: 30px;
+
+	}
+
+	.flex-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: row;
+	  /*max-width: 100px;*/
+
+	}
+
+	.flex-container img{
+		width: 300px;
+		height: 300px;
+		margin: 10px;
+	}
+
+}
+
+/*full screen*/
+@media only screen and (max-width: 1800px) {
+	/*overall*/
+	.navbar-brand {
+		font-family: 'Poppins', sans-serif;
+	}
+	.nav-link {
+		font-family: 'Poppins', sans-serif;
+	}
+
+	/*recipe page*/
+
+	.recipewords {
+		font-family: 'Poppins', sans-serif;
+		text-align: center;
+		color: #E83FA3;
+	}
+
+	.alert {
+		font-family: 'Poppins';
+		text-align: center;
+		color: #E83FA3;
+		font-size: 20px;
+
+	}
+
+	.flex-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: row;
+	  /*max-width: 100px;*/
+
+	}
+
+	.flex-container img{
+		width: 300px;
+		height: 300px;
+		margin: 10px;
+	}
+
+}
+
+/*middle screen*/
+@media only screen and (max-width: 900px) {
+	/*overall*/
+	.navbar-brand {
+		font-family: 'Poppins', sans-serif;
+	}
+	.nav-link {
+		font-family: 'Poppins', sans-serif;
+	}
+
+	/*recipe page*/
+
+	.recipewords {
+		font-family: 'Poppins', sans-serif;
+		text-align: center;
+		color: #A400E8;
+	}
+
+	.alert {
+		font-family: 'Poppins';
+		text-align: center;
+		color: #A400E8;
+
+	}
+
+	.flex-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: row;
+	  /*max-width: 100px;*/
+
+	}
+
+	.flex-container img{
+		width: 300px;
+		height: 300px;
+		margin: 10px;
+	}
+
+}
