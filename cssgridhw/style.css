@@ -1,0 +1,28 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #E89B89;
+  padding: 10px;
+  text-align: center;
+}
+.grid-item {
+  background-color: #FFC3A4;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Muli', sans-serif;
+}
+
