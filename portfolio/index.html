@@ -1,168 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
 	<title>Melissa's Portfolio</title>
 </head>
 <body>
-	<nav class="nav-wrapper">
-		<ul>
-			<li><a href="#work">Work</a></li>
-			<li><a href="#resume">Resume</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
+
+
+<!-- navbar -->
+<div class="entirenav">
+	<nav class="navbar navbar-expand-lg navbar-light">
+  <a href="#" class="navbar-left"><img src="mylogo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">about</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	         work
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="3D.html">3D</a>
+	          <a class="dropdown-item" href="video.html">video</a>
+	          <a class="dropdown-item" href="design.html">design</a>
+	        </div>
+	      </li>
+	  	</ul>
+	  </div>
 	</nav>
-
-	<div id="work">
-		<h1>My Work</h1>
-		<br>
-		<h2> "How Many More?" PSA</h2>
-		<p>These are screenshots from a VR experience of a classroom as a PSA for gun violence in American schools. Everything was 3D modelled in Maya and textured in Unity, screenshots are from Unity.</p>
-		
-		<div class="row1">
-  <div class="column1">
-    <img src="VR1.png" style="width:100%">
-  </div>
-  <div class="column1">
-    <img src="VR2.png" style="width:100%">
-  </div>
-  <div class="column1">
-    <img src="VR3.png" style="width:100%">
-  </div>
-  <div class="column1">
-    <img src="VR6.png" style="width:100%">
-  </div>
-  <div class="column1">
-    <img src="VR5.png" style="width:100%">
-  </div>
-  <div class="column1">
-    <img src="VR4.png" style="width:100%">
-  </div>
-  </div>
-	
-  <h2>Palien Logo and Process</h2>
-  <p>I created a design for a fictional company "Palien". This fictional company specializes in setting up pen pals from different planets. Design was done in Illustrator.</p>
-  <p>Process and Drafts: 4-7</p>
-  <p>Final: 8 & 9</p>
-  <div class="row2">
-  <div class="column2">
-    <img src="palienlogo-page-001.jpg" style="width:100%">
-  </div>
-  <div class="column2">
-    <img src="palienlogo-page-002.jpg" style="width:100%">
-  </div>
-  <div class="column2">
-    <img src="palienlogo-page-003.jpg" style="width:100%">
-  </div>
-  <div class="column2">
-    <img src="palienlogo-page-004.jpg" style="width:100%">
-  </div>
-  <div class="column2">
-    <img src="palienlogo-page-005.jpg" style="width:100%">
-  </div>
-  <div class="column2">
-    <img src="palienlogo-page-006.jpg" style="width:100%">
-  </div>
-
-<div>
-<h2>Physical Application and Process</h2>
-<p>For my physical application I printed the design with a message and stamp on an envelope.</p>
-
-<div class="row3">
-  <div class="column3">
-    <img src="palienphysical-page-001.jpg" style="width:100%">
-  </div>
-  <div class="column3">
-    <img src="palienphysical-page-002.jpg" style="width:100%">
-  </div>
-  <div class="column3">
-    <img src="palienphysical-page-003.jpg" style="width:100%">
-  </div>
-  <div class="column3">
-    <img src="palienphysical-page-004.jpg" style="width:100%">
-  </div>
-  <div class="column3">
-    <img src="palienphysical-page-005.jpg" style="width:100%">
-  </div>
-  <div class="column3">
-    <img src="palienphysical-page-006.png" style="width:100%">
-  </div>
-	</div>
-
-  <h2>Interface for Bucketlist App</h2>
-  <p>I designed the UI for a fictional Bucketlist app that would give a user a monthly bucketlist to complete.</p>
-  <p>Process and Drafts: 10-15</p>
-  <p>Final: 16-18</p>
-<div class="row4">
-  <div class="column4">
-    <img src="interface-page-001.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-002.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-003.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-004.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-005.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-006.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-007.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-008.jpg" style="width:100%">
-  </div>
-  <div class="column4">
-    <img src="interface-page-009.jpg" style="width:100%">
-  </div>
-
-
 </div>
-	
+<!-- navbar -->
+
+<div class="opening">
+<h1>hello! i'm melissa</h1>
+<h1>welcome to my portfolio</h1>
+<!-- <img id="bunny" style="position:absolute;" src="mylogo.png"> -->
+</div>
+<br>
+<div class="flex-container">
 	<div>
-	<h2>Four Days: A short film</h2>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0IVqUszp20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<a href="3d.html"> <img src="3d.png"> </a>
+	</div>
+	<div>
+		<a href="video.html"> <img src="video.png"> </a>
+	</div>
+	<div>
+		<a href="design.html"> <img src="design.png"> </a>
 	</div>
 
-	<h2>Motion Graphics Fun</h2>
-	<p>I created audio based off a soundscape I made and created 2D graphics to go along with it.</p>
-	<video width="640" height="480" controls>
-  <source src="MelissaCanavanSoundscapedog.mp4" type="video/mp4">
-	</video>
-
-	</div>
 </div>
-</div>
+<img id="bunny" style="position:absolute;" src="mylogo.png">
 
-	<div id="resume">
-		<h1>Resume</h1>
-		<p>(zoom in for a better look!)</p>
-		<img class="centerimg" src="resume.jpg">
-	</div>
 
-	<div id="about">
-		<h1>Hello!</h1>
-		<img class="centerimg" src="me.jpeg">
-		<br>
-		<p>I'm Melissa and I'm a sophomore studying Integrated Digital Media at NYU Tandon School of Engineering.</p>
-		<p>When I'm not in classes or at work I'm probably messing around in Illustrator working on random designs or doing some weird sketches.</p>
-		<p>Currently I work in a variety of mediums including Graphic Design, VR and 3D Modelling, and some short film making and editing. I also know some basic HTML and CSS. But I like to learn new things, so I'm always excited to go out of my comfort zone.</p>
-	</div>
 
-	<div id="contact">
-		<h1>Contact Me</h1>
-		<img class="centerimg" src="legs.JPG">
-		<p>email: mc6619@nyu.edu</p>
-		<p>instagram: @mel.canavan</p>
-	</div>
 
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
